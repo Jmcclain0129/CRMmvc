@@ -1,3 +1,7 @@
+/*
+*Toggle on index page
+*/
+
 .parent { 
     display: grid; 
     grid-template-columns: 1fr; 

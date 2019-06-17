@@ -1,4 +1,7 @@
-
+/*
+*toggle on index
+*/
+  
   $('button').click(function(){
     let item= $(this).attr('id');
    
@@ -23,7 +26,7 @@ function createCard(attr) {
          break;
      }
      
-     let tex= `<h1> ${header} </h1> <p>${body}</p>`;
+     let tex= `<h3> ${header} </h3> <p>${body}</p>`;
      $('.card').html(tex);
    }
    
