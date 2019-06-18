@@ -8,6 +8,21 @@ body {
     padding-top: 5rem;
   }
 
+  .cover-container2 {
+    max-width: 42em;
+    padding-top: 5rem;
+  }
+
+.faq {
+    text-align: left;
+    padding-top: 2rem;
+  }
+
+  #exception {
+    text-align: center;
+    padding-top: 0rem;
+  }
+
 .card {
     border: 1px solid black;
     width: auto;
@@ -41,4 +56,8 @@ body {
           float; align-content: center;
           padding-bottom: 2rem
         }
+.hero {
+  text-align: justify;
+}
+
       }

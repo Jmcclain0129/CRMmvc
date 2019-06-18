@@ -66,6 +66,7 @@ Project is created with:
     /* Word Cloud */ https://docs.google.com/document/d/1t7_gNhvOY4OvjbFHPPJtpzl2G3z2a2JV8P9jBpDNc-Q/edit
     /* Word Cloud */ https://chrome.google.com/webstore/detail/fun-text/pejklkkiknciokhehfcnpnhcgohjbpag
     /* Word Cloud */ https://docs.google.com/document/d/14rmheCFA6m1fTa6amsdwTngQITS1zDyJkYJ16jt8UbA/edit
+    /* Word Cloud */ Creative cloud Photoshop App
     /* readme */ https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project
     /* bootstrap grids */ https://www.w3schools.com/bootstrap/bootstrap_templates.asp
     /* bootstrap grids */ https://uxplanet.org/how-the-bootstrap-4-grid-works-a1b04703a3b7
@@ -78,7 +79,11 @@ Project is created with:
     /* bootstrap grids */
     /* bootstrap grids */
     /* bootstrap grids */
-	
+
+## How I accomplished certain things
+
+The word cloud feature is simple image at the moment. I mentioned above I was using frames but have decided to convert the google docs generated cloud which is providing the frame into an image. To do so I took a screen snippet and pasted that in photoshop where I removed the background using the color select option. I then saved it as png and placed on site as needed.
+
 ## Setup
 To run this project, install it locally using npm:
 
