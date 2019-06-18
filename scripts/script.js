@@ -37,9 +37,9 @@ function createCard(attr) {
           body = "You can send notices via your web app to your customers who have the PWA app installed on their homescreens. Notices appear as alerts so those users who have alerts active receive the message on their screen. This works on PC, tablets and mobile devices. The red badge with number of notices also appears so the user knows how many messages are queued";
           break;
         case 'access':
-            header= "PWA: Device Access";
-            body = "Progressive Web Applications can access many features native apps can such as touch gesture, motion sensing and so on... Android has a much broader range of access than Apple but Apple is not far behind. The reality is this technology is built to compete against native mobile apps and anyone wishing to stay ahead of the curve needs to consider deploying a PWA as an alternative to investing in or maintaining native mobile apps.";
-            break;
+          header= "PWA: Device Access";
+          body = "Progressive Web Applications can access many features native apps can such as touch gesture, motion sensing and so on... Android has a much broader range of access than Apple but Apple is not far behind. The reality is this technology is built to compete against native mobile apps and anyone wishing to stay ahead of the curve needs to consider deploying a PWA as an alternative to investing in or maintaining native mobile apps.";
+          break;
 
      }
      
