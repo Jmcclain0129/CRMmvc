@@ -47,7 +47,7 @@ Since this is milestone project 1 as part of the user centric frontend developer
     - The project brief accompanies a pdf dock which houses the projects balsamiq mock-ups. The ux depicted in the mock-ups indivate the user should land on a success page notifying them they successfully downloaded the app icon with further instruction to go to their homescreen and clock/tap the icon to launch the page. I have purposefully omitted this page from the milestone project site because I would have had to add additional feature within the page to get the user to the PWA landing page they are redirected to through the modal currently. Eventually I will add the download feature to the button and then introduce this success page to the project but not prior to submitting the project initially.
 
 3. Index page and pwa-man page
-    - There is a glitxh in the jquery toggler feature I have on both of these pages. In the div the title text font size is larger than in the cards controlled by the script. The div loads on page load then the script version takes over once a button is actioned. Tp resolve I have to target that div title font through css to adjust its size but have not been able to do so without blowing up the widget. Will continue to find a solution and push it once solved. 
+    - There is a glitch in the jquery toggler feature I have on both of these pages. In the div the title text font size is larger than in the cards controlled by the script. The div loads on page load then the script version takes over once a button is actioned. Tp resolve I have to target that div title font through css to adjust its size but have not been able to do so without blowing up the widget. Will continue to find a solution and push it once solved. 
 	
 ## Technologies
 Project is created with:
@@ -58,9 +58,26 @@ Project is created with:
 * jquery-3.3.1.min.js
 * iFrame (temporary use until permanent solution is discovered)
 
-## Resources for inspiration aka = copy and paste ;-) "why reinvent the wheel"
-/* Home Page */ https://getbootstrap.com/docs/4.3/examples/cover/
-/* Gallery Page */ https://startbootstrap.com/snippets/thumbnail-gallery/
+## Resources for inspiration aka = copy and paste ;-) "why reinvent the wheel?"
+    /* Home Page */ https://getbootstrap.com/docs/4.3/examples/cover/
+    /* Gallery Page */ https://startbootstrap.com/snippets/thumbnail-gallery/
+    /* Word Cloud */ https://www.jasondavies.com/wordcloud/#%2F%2Fwww.jasondavies.com%2Fwordcloud%2Fabout%2F
+    /* Word Cloud */ https://sites.google.com/site/scriptsexamples/custom-methods/other-libraries/word-cloud-library
+    /* Word Cloud */ https://docs.google.com/document/d/1t7_gNhvOY4OvjbFHPPJtpzl2G3z2a2JV8P9jBpDNc-Q/edit
+    /* Word Cloud */ https://chrome.google.com/webstore/detail/fun-text/pejklkkiknciokhehfcnpnhcgohjbpag
+    /* Word Cloud */ https://docs.google.com/document/d/14rmheCFA6m1fTa6amsdwTngQITS1zDyJkYJ16jt8UbA/edit
+    /* readme */ https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project
+    /* bootstrap grids */ https://www.w3schools.com/bootstrap/bootstrap_templates.asp
+    /* bootstrap grids */ https://uxplanet.org/how-the-bootstrap-4-grid-works-a1b04703a3b7
+    /* bootstrap grids */ https://cssgrid-generator.netlify.com/
+    /* websafe colors */ https://websafecolors.info/color-chart
+    /* bootstrap PWA */ https://www.codica.com/blog/progressive-web-apps-vs-native/
+    /* bootstrap grids */ 
+    /* bootstrap grids */
+    /* bootstrap grids */
+    /* bootstrap grids */
+    /* bootstrap grids */
+    /* bootstrap grids */
 	
 ## Setup
 To run this project, install it locally using npm:
