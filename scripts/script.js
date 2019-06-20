@@ -18,7 +18,7 @@ function createCard(attr) {
          break;
        case 'crm':
          header = "CRM: Customer Relationship Manager";
-         body = "A CRM system helps companies stay connected to customers, streamline processes and improve profitabilityt";
+         body = "A CRM system helps companies stay connected to customers, streamline processes and improve profitability";
          break;
        case 'mvp':
          header= "MVP: Minimum Viable Product";

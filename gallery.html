@@ -10,23 +10,41 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="styles/carouseltest.css" rel="stylesheet"> 
+    <link href="styles/main.css" rel="stylesheet">
 </head>
-<body>
-        <body class="text-center">
-                <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-                    <header class="masthead mb-auto">
-                        <div class="inner">
-                            <nav class="nav nav-masthead justify-content-center">
-                            <a class="nav-link active" href="/index2.html">Home</a>
-                            <a class="nav-link" href="features.html#">Features</a>
-                            <a class="nav-link" href="contact.html#">Contact</a>
-                            </nav>
-                        </div>
-                    </header>
+<body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="index.html">HOME</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/about-us.html">About Us <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/features.html">Features <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+        </header>
+       <div class="cover-container">
+    <div>
     <!-- Page Content -->
 <div class="container">
 
@@ -97,13 +115,15 @@
                 </a>
           </div>
         </div>
-      
+        <div class="container">
+            <p>To learn more or place an order just get in touch: <a href="/about-us.html">Click Here</a></p>
+        </div>
       </div>
-      <!-- /.container -->
-      <footer class="mastfoot mt-auto">
-            <div class="inner">
-              <p>This is an MVP project developed with <a href="https://getbootstrap.com/">Bootstrap</a>, by CRMmvc.com All rights reserved. <a href="https://twitter.com/mdo"></a>.</p>
-            </div>
-          </footer>
+ <!-- Footer -->
+ <div class="footer text-center">
+        <p>This is an MVP project developed with <a href="#">Bootstrap</a> by CRMmvc.com All rights reserved.</p>
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="scripts/script.js">
 </body>
 </html>
