@@ -10,9 +10,9 @@ body {
 
 .cover-container2 {
     max-width: 42em;
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
-
+  
 .faq {
     text-align: left;
     padding-top: 2rem;
@@ -59,10 +59,10 @@ body {
 
     }
     .footer {
-        background: #888b8b !important;
+        background: #b8bbbb !important;
         text-align: center;
         padding: 11px;
-        color: #eeeeee;
-        height: 3rem;
+        color: #585252;
+        height: auto;
     }
  

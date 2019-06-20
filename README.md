@@ -4,23 +4,25 @@ A software application development company specializing in early stage MVP proje
 
 
 ## Table of contents
+* [About The Author](#about)
+* [Full Disclosue](#disclosure)
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Features](#features)
+* [Testing](#testing)
 
-## Full Disclosure; about the author and project developer
+## About the author and project developer
 
-About the author: Hello, my name is John McClain. This project is based on a business model I have been contemplating for some time now. I recently formed my own company and secured the domain name MVCcrm.com. I have many years experience selling software application development projects, primarily SaaS solutions, to SME's. My experience has always been client facing and though I have been in production environments I have never actually taken the time to take courses which could teach me to physically code. I would consider myself an expert on user experience and am quite comfortable writing scope documents and designing wireframes. My knowledge gap is in understanding the true fundamentals of how code pulls everything together which is why I have eagerly jumped at the opportunity to take the Code Institute's full stack jr developer course.
+About the author: Hello, my name is John McClain. This project is based on a business model I have been contemplating for some time now. I recently formed my own company and secured the domain name MVCcrm.com. I have many years experience selling software application development projects, primarily SaaS solutions to SME's.
+
+My experience has always been client facing and though I have been in production environments I have never actually taken the time to take courses which could teach me to physically code. I would consider myself an expert on user experience and am quite comfortable writing scope documents and designing wireframes. My knowledge gap is in understanding the true fundamentals of how code pulls everything together which is why I have eagerly jumped at the opportunity to take the Code Institute's full stack jr developer course.
 
 My hope is that I can take the knowledge I have gained here along with the skills I already possess and find a job as a jr. project manager with a software development company or SME with in-house operations.
 
-Full Disclosure: My project is not as polished as many of the others because I joined the class 5 days after they did. I believe one other person in the class also joined late but only by a couple of days whereas I missed the entire first week. This means I missed the induction week and all of the initial intel that comes with it. I feel like I have been thrown to the wolves but am not complaining because I love a challenge and I absolutely love the course work. I am in heaven really! However, with that said I am at a grave disadvantage and have skipped both of the practice projects found in the user centric module including "the whiskey project" and "the resume" project. I did get about halfway through "the whiskey project" before I made a command decision to skip forward to the user centric milestone project #1. I started my project officially on Friday the 14th of June. It is now the 17 of June and I have completed the initial project by in large.
+## Disclosure:
 
-I built the site in 3 days with little or know knowledge of coding other than what I have gained over the 9 days I have been in the course. I am hoping that given this situation some preferential treatment related to the scoring of grades can be taken into consideration when whomever decides to put pen to paper and officially grade my efforts.
+My project is not as polished as many of the others because I joined the class 5 days after they did. I believe one other person in the class also joined late but only by a couple of days whereas I missed the entire first week. This means I missed the induction week and all of the initial intel that comes with it.
 
-I feel it is also worth mentioning that I have had zero help from my mentor and have not actually ever spoken to my mentor. I have utilized the slack app resource which is a brilliant tool and without their help I certainly would not have been able to get as far along as I have.
-
-With all of that said, I would like to take this opportunity to thank everyone at the Code Institute and to convey to each and everyone of you that IMO you guys rock. The program rocks and I personally wish each and every one of you the greatest success. It's a real treat and your team deserves a great deal of praise for bringing it to life. Kudos to you all!
 
 
 
@@ -54,9 +56,7 @@ Project is created with:
 * HTML5
 * CSS4
 * Bootstrap 
-* Javascript
 * jquery-3.3.1.min.js
-* iFrame (temporary use until permanent solution is discovered)
 
 ## Resources for inspiration aka = copy and paste ;-) "why reinvent the wheel?"
     /* Home Page */ https://getbootstrap.com/docs/4.3/examples/cover/
@@ -84,7 +84,23 @@ Project is created with:
 
 The word cloud feature is simple image at the moment. I mentioned above I was using frames but have decided to convert the google docs generated cloud which is providing the frame into an image. To do so I took a screen snippet and pasted that in photoshop where I removed the background using the color select option. I then saved it as png and placed on site as needed.
 
-## Setup
+## Features
+The site the Modal screen to access app icon download option that allows user to palce short cut on their desk top back to the site. Currently the logic is javascript which is outside the parameters of this milestone. So the site is simulating the flow as if the user had downloaded the icon and lanched the site from it. The landing page would be different than the home page if you launched from descktop because it would load the PWA version of the site.
+
+The footer is intentionally not fixed to the bottom of the page. To achive this I placed the footer in the main grid which has a min-width setting at 56 rem.
+
+The { curly brackets } are intentially used as design elements at the top of each pages content area. The curly brackets wrap the page title using (p) element.
+
+The Search fearture in the navbar section is not functioning feation. The elements are their as design features only at this milestone.
+
+Buttons on the 
+
+Future features
+
+I intend to develop the site as a fully compliant PWA using googles PWA standards call-out
+I intend on integrating 3rd party API that will enable the user to view his/her browsing history on the site.
+
+## Testing
 To run this project, install it locally using npm:
 
 ```
