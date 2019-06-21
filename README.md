@@ -1,17 +1,9 @@
 # Title: CRMmvc.com
 
-## Project:
-This project represents a design styled to look like an early stage MVP prototype. It's design is  purposely purposely dummied down to and intentionally lacks flare as most prototypes of its kind would. It will serve as a working model for a software application development company specializing in the design and creation of cloud based CRM prototypes for small to medium businesses (SME's).
-
-## Demo
-A live demo can be found [here](https://jmcclain0129.github.io/CRMmvc/index.html).
-
-![Desktop Demo](https://github.com/Jmcclain0129/CRMmvc/blob/master/CRMmvc-index.png?raw=true "Desktop Demo")
-
-## Site Address:
-https://jmcclain0129.github.io/CRMmvc/index.html
-
 ## Table of contents
+* [Project](#project)
+* [Demo](#demo)
+* [Balsamiq Mock Ups](#mock-ups)
 * [About The Author](#about)
 * [General info](#general-info)
 * [Navigation explained](#navigation)
@@ -20,6 +12,17 @@ https://jmcclain0129.github.io/CRMmvc/index.html
 * [Features](#features)
 * [Testing](#testing)
 * [Credits](#credits)
+
+## Project:
+This project represents a design styled to look like an early stage MVP prototype. It's design is  purposely purposely dummied down to and intentionally lacks flare as most prototypes of its kind would. It will serve as a working model for a software application development company specializing in the design and creation of cloud based CRM prototypes for small to medium businesses (SME's).
+
+## Demo
+A live demo can be found [here](https://jmcclain0129.github.io/CRMmvc/index.html).
+
+![Desktop Demo](https://github.com/Jmcclain0129/CRMmvc/blob/master/CRMmvc-index.png?raw=true "Desktop Demo")
+
+## Balsamiq Mock-Ups Address:
+http://www.evernote.com/l/APD6Mvvxh15I04LaFHudaxg1UTovmEJ5ssU/
 
 ## About the author and project developer
 
