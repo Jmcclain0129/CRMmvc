@@ -1,27 +1,25 @@
 # Title: CRMmvc.com
 
 ## Project:
-This project is an MVP prototype for a software application development company specializing in early stage CRM project developments for SME's
-
+This project represents a design styled to look like an early stage MVP prototype. It's design is  purposely purposely dummied down to and intentionally lacks flare as most prototypes of its kind would. It will serve as a working model for a software application development company specializing in the design and creation of cloud based CRM prototypes for small to medium businesses (SME's).
 
 ## Demo
 A live demo can be found [here](https://jmcclain0129.github.io/CRMmvc/index.html).
 
 ![Desktop Demo](https://github.com/Jmcclain0129/CRMmvc/blob/master/CRMmvc-index.png?raw=true "Desktop Demo")
 
-
-
 ## Site Address:
 https://jmcclain0129.github.io/CRMmvc/index.html
 
-
 ## Table of contents
 * [About The Author](#about)
-* [Full Disclosue](#disclosure)
 * [General info](#general-info)
+* [Navigation explained](#navigation)
 * [Technologies](#technologies)
+* [Resources](#resources)
 * [Features](#features)
 * [Testing](#testing)
+* [Credits](#credits)
 
 ## About the author and project developer
 
@@ -31,12 +29,7 @@ My name is John McClain.
 
 I recently formed my own company and secured the domain name CRMmvc.com. I plan on using this milestone project as a landing page and sales funnel for my new business.
 
-My background includes many years experience selling software application development projects, primarily SaaS solutions to SME's. It is this experience that has sparked my interest in developing a business model that specialises in development of functioning prototype cloud based web applications otherwise known as MVP's.
-
-## Disclosure:
-
-My project is not as polished as many of the others because I joined the class 5 days after they did. I believe one other person in the class also joined late but only by a couple of days whereas I missed the entire first week. This means I missed the induction week and all of the initial intel that comes with it. To catch up up I skipped most of the Whiskey project and all of the Resume project located in the user centric front end design module.
-
+My background includes many years experience selling software application development projects, primarily SaaS solutions to SME's. It is this experience that has sparked my interest in developing a business model that specialises in the development low cost functioning prototypes that are essentially cloud based web applications serving as a companies MVP.
 
 ## General info
 
@@ -71,6 +64,7 @@ Since this is milestone project 1 as part of the user centric frontend developer
 	
 ## Technologies
 Project is created with:
+
 * HTML5
 * CSS4
 * Bootstrap 
@@ -92,11 +86,12 @@ Project is created with:
     /* websafe colors */ https://websafecolors.info/color-chart
     /* bootstrap PWA */ https://www.codica.com/blog/progressive-web-apps-vs-native/
 
-## How I accomplished certain things
+
+## Features
 
 The word cloud feature is simple image at the moment. I mentioned above I was using frames but have decided to convert the google docs generated cloud which is providing the frame into an image. To do so I took a screen snippet and pasted that in photoshop where I removed the background using the color select option. I then saved it as png and placed on site as needed.
 
-## Features
+
 The site the Modal screen to access app icon download option that allows user to palce short cut on their desk top back to the site. Currently the logic is javascript which is outside the parameters of this milestone. So the site is simulating the flow as if the user had downloaded the icon and lanched the site from it. The landing page would be different than the home page if you launched from descktop because it would load the PWA version of the site.
 
 The footer is intentionally not fixed to the bottom of the page. To achive this I placed the footer in the main grid which has a min-width setting at 56 rem.
